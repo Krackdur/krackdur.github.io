@@ -3,17 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radio RP - Lecture Audio</title>
-    <style>
-        /* Ajouter ton style ici si nécessaire */
-    </style>
+    <title>Bienvenue sur LS Underground</title>
 </head>
 <body>
 
-    <h1>Radio RP - Diffusion</h1>
-    <p>Téléchargez l'audio ci-dessous :</p>
-
-    <a href="https://drive.google.com/uc?export=download&id=12aRlZ9mB-rEUq7147Hoy5kvgjt9zfc9M" download>Télécharger l'audio</a>
+    <h1>Bienvenue sur LS Underground</h1>
+    <p>Ceci est une page d'accueil simple.</p>
 
 </body>
 </html>
