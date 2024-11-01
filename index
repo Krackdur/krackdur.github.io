@@ -11,15 +11,8 @@
 <body>
 
     <h1>Radio RP - Diffusion</h1>
-    <p>Écoutez notre dernière diffusion ci-dessous :</p>
+    <p>Téléchargez l'audio ci-dessous :</p>
 
-    <!-- Lecteur audio avec lien Google Drive -->
-    <audio controls>
-        <source src="https://drive.google.com/uc?export=download&id=12aRlZ9mB-rEUq7147Hoy5kvgjt9zfc9M" type="audio/mp3">
-        Votre navigateur ne supporte pas l'élément audio.
-    </audio>
-
-    <!-- Bouton de téléchargement avec lien Google Drive -->
     <a href="https://drive.google.com/uc?export=download&id=12aRlZ9mB-rEUq7147Hoy5kvgjt9zfc9M" download>Télécharger l'audio</a>
 
 </body>
