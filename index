@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio RP - Lecture Audio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: #ffffff;
+            text-align: center;
+        }
+        h1 {
+            color: #61dafb;
+        }
+        audio {
+            margin: 20px 0;
+            width: 100%;
+            max-width: 600px;
+        }
+        .download-button {
+            background-color: #61dafb;
+            color: #282c34;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .download-button:hover {
+            background-color: #21a1f1;
+        }
+    </style>
+    <!-- Google Analytics tracking (à remplacer par votre propre ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-VOTRE-ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-VOTRE-ID'); // Remplacez par votre propre ID Google Analytics
+    </script>
+</head>
+<body>
+
+    <h1>Radio RP - Diffusion</h1>
+    <p>Écoutez notre dernière diffusion ci-dessous :</p>
+
+    <!-- Lecteur audio -->
+    <audio controls>
+        <source src="https://drive.google.com/uc?export=download&id=12aRlZ9mB-rEUq7147Hoy5kvgjt9zfc9M" type="audio/mp3">
+        Votre navigateur ne supporte pas l'élément audio.
+    </audio>
+
+    <!-- Bouton de téléchargement -->
+    <a href="https://drive.google.com/uc?export=download&id=12aRlZ9mB-rEUq7147Hoy5kvgjt9zfc9M" download class="download-button" onclick="trackDownload()">Télécharger l'audio</a>
+
+    <script>
+        // Fonction pour le suivi des téléchargements
+        function trackDownload() {
+            gtag('event', 'download', {
+                'event_category': 'Audio',
+                'event_label': 'Téléchargement de latest.mp3'
+            });
+        }
+    </script>
+
+</body>
+</html>
